@@ -6,6 +6,7 @@ import { useEffect, useRef } from 'react'
  * and subtle parallax movement based on desktop pointer interaction.
  * Gracefully respects prefers-reduced-motion and document visibility.
  */
+
 export default function Starfield() {
   const canvasRef = useRef(null)
 
